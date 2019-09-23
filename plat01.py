@@ -12,7 +12,7 @@ print (platform.uname())
 stato1 = platform.uname()
 stato1 = tuple(stato1)
 #print (type(stato1))
-print (stato1[3])
+print ("...", stato1[0])
 # FINE OLTRE L'ESERCIZIO
 if platform.system() == "Linux":
     
